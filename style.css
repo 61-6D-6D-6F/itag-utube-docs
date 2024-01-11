@@ -20,7 +20,7 @@ a, a:visited {
 nav {
     background-color: var(--nav-color);
     padding: 20px 100px;
-    
+
     a {
         color: var(--bg-color);
         font-size: 26px;
@@ -41,12 +41,12 @@ main {
         svg {
             min-width: 200px;
         }
-        
+
         h1 {
             font-size: 40px;
             margin-top: 0;
         }
-        
+
         p {
             font-size: 20px;
 
@@ -55,15 +55,15 @@ main {
             }
         }
     }
-    
+
     > article {
         margin: 20px;
-        
+
         h2 {
             font-size: 34px;
             text-align: center;
         }
-        
+
         p {
             font-size: 20px;
 
@@ -84,7 +84,7 @@ footer {
     display: flex;
     flex-direction: column;
     margin: 20px;
-    
+
     div {
         align-items: center;
         display: flex;
