@@ -21,10 +21,10 @@ nav {
     background-color: var(--nav-color);
     padding: 20px 100px;
 
-    a {
-        color: var(--bg-color);
-        font-size: 26px;
-    }
+}
+nav a {
+    color: var(--bg-color);
+    font-size: 26px;
 }
 main {
     align-items: center;
@@ -33,49 +33,39 @@ main {
     flex-direction: column;
     padding: 80px 0 0 0;
     width: clamp(490px, 70%, 900px);
-
-    div {
-        display: flex;
-        gap: 80px;
-
-        svg {
-            min-width: 200px;
-        }
-
-        h1 {
-            font-size: 40px;
-            margin-top: 0;
-        }
-
-        p {
-            font-size: 20px;
-
-            a {
-                color: var(--highlight-color);
-            }
-        }
-    }
-
-    > article {
-        margin: 20px;
-
-        h2 {
-            font-size: 34px;
-            text-align: center;
-        }
-
-        p {
-            font-size: 20px;
-
-            span {
-                color: var(--highlight-color);
-            }
-
-            a {
-                color: var(--highlight-color);
-            }
-        }
-    }
+}
+main div {
+    display: flex;
+    gap: 80px;
+}
+main div svg {
+    min-width: 200px;
+}
+main div h1 {
+    font-size: 40px;
+    margin-top: 0;
+}
+main div p {
+    font-size: 20px;
+}
+main div p a {
+    color: var(--highlight-color);
+}
+main > article {
+    margin: 20px;
+}
+main > article h2 {
+    font-size: 34px;
+    text-align: center;
+}
+main > article p {
+    font-size: 20px;
+}
+main > article p span {
+    color: var(--highlight-color);
+}
+main > article p a {
+    color: var(--highlight-color);
 }
 footer {
     align-items: center;
@@ -84,19 +74,16 @@ footer {
     display: flex;
     flex-direction: column;
     margin: 20px;
-
-    div {
-        align-items: center;
-        display: flex;
-        gap: 0 100px;
-
-        div {
-            flex-direction: column;
-        }
-    }
-
-    a {
-        color: var(--ammo-color);
-        font-size: 26px;
-    }
+}
+footer div {
+    align-items: center;
+    display: flex;
+    gap: 0 100px;
+}
+footer div div {
+    flex-direction: column;
+}
+footer a {
+    color: var(--ammo-color);
+    font-size: 26px;
 }
