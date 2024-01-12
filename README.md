@@ -1,5 +1,5 @@
 # ![icon](https://github.com/61-6D-6D-6F/itag-utube-docs/assets/30551234/828dce89-c999-45d8-a308-0b2648adf312) ITag UTube Firefox extension - documentation:
-ITag UTube  - organize your favourite channels and videos with custom tags using the browser's local storage without a need of google account.
+ITag UTube  - organize your favorite channels and videos with custom tags using the browser's local storage without a need of google account.
 
 ## Features:
 - uses the browser's local storage, no need to have a google account, your data is local
@@ -9,7 +9,7 @@ ITag UTube  - organize your favourite channels and videos with custom tags using
 - configurable shortcuts
 
 ## Installing:
-- install from [here]()
+- install from [here](https://addons.mozilla.org/en-US/firefox/addon/itag-utube-organizer/)
 
 ## Usage:
 ### Adding tag:
@@ -40,6 +40,7 @@ ITag UTube  - organize your favourite channels and videos with custom tags using
 
 ## Permissions:
 - tabs - necessary for updating icons on tab change
+- unlimited storage - necessary for storing data
 - data on youtube - necessary for getting video information and showing icons under the video title
 
 ## Important notes and warnings:
